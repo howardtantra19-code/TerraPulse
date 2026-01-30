@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TerraPulse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ibb.co.com/k6gN0f5x/Terra-Pulse.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Fredoka:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="stylesheet" href="faq.css">
+    
+  </head>
+  <body onscroll="showUpBtn()">
+    
+    <div id="loading-screen">
+      <div class="loading-content">
+        <div class="loading-logo">
+          <img src="https://i.ibb.co.com/1YZqsgLY/Logo-Terra-Pulse.png" alt="TerraPulse Logo">
+        </div>
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+        </div>
+        <p class="loading-text">Loading TerraPulse...</p>
+      </div>
+    </div>
+
+
+    <div class="top-banner">
+      <div class="banner-content">
+        <i class="fa-solid fa-leaf banner-icon"></i>
+        <span class="banner-text" id="greet1">Welcome to TerraPulse</span>
+        <i class="fa-solid fa-earth-americas banner-icon"></i>
+      </div>
+    </div>
+    
+ <nav class="navbar"> 
+    <div class="logo"> 
+          <a href='/'><img src="https://i.ibb.co.com/1YZqsgLY/Logo-Terra-Pulse.png" alt="Logo TerraPulse"></a>
+    </div>
+     <ul id="navList"> 
+      <li><a href="#main-header">Home</a></li> 
+      <li><a href="#slider">Explore</a></li> 
+      <li><a href="#shop">Toko</a></li> 
+      <li><a href="#blog">Article</a></li> 
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#about">About Us</a></li> 
+    </ul> 
+    <div class="navbar-icon"> 
+      <i class="fa-solid fa-bars" id="menuBtn"></i> 
+    </div>
+  </nav>
+
+  <main>
+    <section id="main-header">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Be the Change,<br />
+          <span class="aksi-text">Start the Rise.</span>
+        </h1>
+        <p class="hero-subtitle">Bersama kita ciptakan lingkungan yang lebih hijau dan berkelanjutan</p>
+        <a href="#pollution-info" class="hero-scroll-btn">
+          <i class="fa-solid fa-arrow-down gerak" id="arrow-down"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+<section id="pollution-info">
+    <div class="pollution-container">
+      <div class="pollution-header">
+        <h1>Polusi <span style="color: #4d9e00">Lingkungan</span></h1>
+        <p class="pollution-subtitle">Kenali, Pahami, dan Ambil Aksi untuk Lingkungan yang Lebih Baik</p>
+      </div>
+
+      <!-- Navigasi -->
+      <div class="pollution-tabs">
+        <button class="tab-btn active" data-tab="pengertian">
+          <i class="fa-solid fa-book"></i>
+          <span>Pengertian</span>
+        </button>
+        <button class="tab-btn" data-tab="penyebab">
+          <i class="fa-solid fa-exclamation-triangle"></i>
+          <span>Penyebab</span>
+        </button>
+        <button class="tab-btn" data-tab="dampak">
+          <i class="fa-solid fa-heart-crack"></i>
+          <span>Dampak</span>
+        </button>
+        <button class="tab-btn" data-tab="upaya">
+          <i class="fa-solid fa-seedling"></i>
+          <span>Upaya</span>
+        </button>
+        <button class="tab-btn" data-tab="aqi-monitor">
+          <i class="fa-solid fa-wind"></i>
+          <span>AQI Jakarta</span>
+        </button>
+      </div>
+
+     
+      <div class="pollution-content">
+
+        <div class="tab-content active" id="pengertian">
+          <div class="content-card">
+            <div class="content-icon">
+              <i class="fa-solid fa-circle-info"></i>
+            </div>
+            <h2>Apa itu Polusi Lingkungan?</h2>
+            <p class="content-text">
+             Menurut UNDRR, polusi adalah masuknya zat atau panas ke dalam lingkungan seperti udara, air, dan tanah, yang karena sifat, lokasi, atau jumlahnya dapat menimbulkan dampak negatif bagi lingkungan. Polusi juga mencakup berbagai aktivitas manusia yang menghasilkan bahan pencemar tersebut.
+            </p>
+          </div>
+        </div>
+
+       
+        <div class="tab-content" id="penyebab">
+          <h2 class="section-title">Faktor Penyebab</h2>
+          <div class="causes-grid">
+            <div class="cause-card">
+              <div class="cause-icon">🚗</div>
+              <h3>Transportasi</h3>
+              <div class="cause-hover-content">
+                <p>Emisi kendaraan bermotor menghasilkan polutan berbahaya seperti CO₂ dan NO₂.</p>
+              </div>
+            </div>
+
+            <div class="cause-card">
+              <div class="cause-icon">🏭</div>
+              <h3>Industri</h3>
+              <div class="cause-hover-content">
+                <p>Limbah cair, gas, dan bahan kimia mencemari udara serta perairan.</p>
+              </div>
+            </div>
+
+            <div class="cause-card">
+              <div class="cause-icon">🗑️</div>
+              <h3>Sampah & Limbah Rumah Tangga</h3>
+              <div class="cause-hover-content">
+                <p>Sampah plastik dan pembakaran terbuka mencemari tanah dan udara.</p>
+              </div>
+            </div>
+
+            <div class="cause-card">
+              <div class="cause-icon">🔥</div>
+              <h3>Pembakaran Terbuka</h3>
+              <div class="cause-hover-content">
+                <p>Membakar sampah menghasilkan zat beracun dan partikel halus.</p>
+              </div>
+            </div>
+
+            <div class="cause-card">
+              <div class="cause-icon">🌾</div>
+              <h3>Pertanian</h3>
+              <div class="cause-hover-content">
+                <p>Pestisida dan pupuk kimia mencemari tanah serta air.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="tab-content" id="dampak">
+          <h2 class="section-title">Dampak Polusi Lingkungan</h2>
+          <div class="impact-list">
+            <div class="impact-item">
+              <i class="fa-solid fa-hospital"></i>
+              <p>Menurunnya kualitas kesehatan manusia</p>
+            </div>
+            <div class="impact-item">
+              <i class="fa-solid fa-tree"></i>
+              <p>Kerusakan ekosistem dan keanekaragaman hayati</p>
+            </div>
+            <div class="impact-item">
+              <i class="fa-solid fa-droplet"></i>
+              <p>Pencemaran sumber air bersih</p>
+            </div>
+            <div class="impact-item">
+              <i class="fa-solid fa-city"></i>
+              <p>Menurunnya kualitas hidup di perkotaan</p>
+            </div>
+            <div class="impact-item">
+              <i class="fa-solid fa-lungs"></i>
+              <p>Meningkatnya risiko penyakit kronis</p>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="tab-content" id="upaya">
+          <h2 class="section-title">Upaya & Solusi</h2>
+          
+          <div class="solution-section">
+            <div class="solution-card">
+              <div class="solution-header">
+                <i class="fa-solid fa-user"></i>
+                <h3>Aksi Individu</h3>
+              </div>
+              <ul class="solution-list">
+                <li>
+                  <i class="fa-solid fa-bus"></i>
+                  <span>Gunakan transportasi umum atau sepeda</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-ban"></i>
+                  <span>Kurangi plastik sekali pakai</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-fire-flame-curved"></i>
+                  <span>Jangan membakar sampah</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-recycle"></i>
+                  <span>Pilah dan daur ulang sampah</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-bolt"></i>
+                  <span>Hemat energi listrik</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="solution-card">
+              <div class="solution-header">
+                <i class="fa-solid fa-users"></i>
+                <h3>Aksi Kolektif</h3>
+              </div>
+              <ul class="solution-list">
+                <li>
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span>Edukasi dan kampanye lingkungan</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-trash-can"></i>
+                  <span>Pengelolaan sampah berkelanjutan</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-scale-balanced"></i>
+                  <span>Dukungan kebijakan lingkungan</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-solar-panel"></i>
+                  <span>Penggunaan energi bersih</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- New AQI Monitor Tab -->
+        <div class="tab-content" id="aqi-monitor">
+          <h2 class="section-title">Monitoring Kualitas Udara Jakarta Real-Time</h2>
+          <div class="aqi-monitor-container">
+            <div class="aqi-main-card">
+              <div class="aqi-header">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Jakarta, Indonesia</h3>
+              </div>
+              
+              <div class="aqi-value-display">
+                <div class="aqi-circle" id="aqi-circle">
+                  <div class="aqi-number" id="aqi-number">
+                    <span class="loading-dots">--</span>
+                  </div>
+                  <div class="aqi-label">AQI</div>
+                </div>
+              </div>
+
+              <div class="aqi-status" id="aqi-status">
+                <div class="status-badge">
+                  <span id="status-text">Memuat data...</span>
+                </div>
+                <p class="status-description" id="status-description">Mohon tunggu sebentar</p>
+              </div>
+
+              <div class="aqi-details" id="aqi-details">
+                <div class="detail-item">
+                  <i class="fa-solid fa-temperature-half"></i>
+                  <div class="detail-content">
+                    <span class="detail-label">Suhu</span>
+                    <span class="detail-value" id="temp-value">--°C</span>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="fa-solid fa-droplet"></i>
+                  <div class="detail-content">
+                    <span class="detail-label">Kelembaban</span>
+                    <span class="detail-value" id="humidity-value">--%</span>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="fa-solid fa-wind"></i>
+                  <div class="detail-content">
+                    <span class="detail-label">Angin</span>
+                    <span class="detail-value" id="wind-value">-- km/h</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="aqi-update-time">
+                <i class="fa-solid fa-clock"></i>
+                <span id="update-time">Terakhir diperbarui: --</span>
+              </div>
+            </div>
+
+            <div class="aqi-info-card">
+              <h4><i class="fa-solid fa-info-circle"></i> Tentang AQI</h4>
+              <p>Air Quality Index (AQI) adalah indeks untuk melaporkan kualitas udara harian. Semakin tinggi nilai AQI, semakin tinggi tingkat polusi udara.</p>
+              
+              <div class="aqi-scale">
+                <div class="scale-item good">
+                  <div class="scale-color"></div>
+                  <div class="scale-info">
+                    <strong>0-50</strong>
+                    <span>Baik</span>
+                  </div>
+                </div>
+                <div class="scale-item moderate">
+                  <div class="scale-color"></div>
+                  <div class="scale-info">
+                    <strong>51-100</strong>
+                    <span>Sedang</span>
+                  </div>
+                </div>
+                <div class="scale-item unhealthy-sensitive">
+                  <div class="scale-color"></div>
+                  <div class="scale-info">
+                    <strong>101-150</strong>
+                    <span>Tidak Sehat untuk Sensitif</span>
+                  </div>
+                </div>
+                <div class="scale-item unhealthy">
+                  <div class="scale-color"></div>
+                  <div class="scale-info">
+                    <strong>151-200</strong>
+                    <span>Tidak Sehat</span>
+                  </div>
+                </div>
+                <div class="scale-item very-unhealthy">
+                  <div class="scale-color"></div>
+                  <div class="scale-info">
+                    <strong>201-300</strong>
+                    <span>Sangat Tidak Sehat</span>
+                  </div>
+                </div>
+                <div class="scale-item hazardous">
+                  <div class="scale-color"></div>
+                  <div class="scale-info">
+                    <strong>300+</strong>
+                    <span>Berbahaya</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="slider">
+    <div class="slider">
+      <div class="slide active">
+        <img
+          src="https://i.ibb.co.com/pBcdwznv/image.jpg"
+          alt="Students Protecting Environment"
+        />
+        <div class="info">
+          <h2>Kenapa Generasi Muda Adalah Kunci dalam Mengatasi Krisis Iklim</h2>
+          <p>
+            Generasi muda punya energi, ide segar, dan keberanian untuk menciptakan perubahan nyata. Dunia sedang membutuhkan pahlawan baru—dan mungkin, itu adalah kamu. Temukan bagaimana anak muda bisa menjadi kekuatan utama dalam menyelamatkan bumi.
+          </p>
+          <a class='btn' href='slider1.html'>Baca Selengkapnya</a>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img
+          src="https://cdn.prod.website-files.com/63f5b129b7d6a303691fd59f/67f7effadfcd38dafc9e6181_way-reduce-carbon.jpg"
+          alt="Reduce Carbon Footprint"
+        />
+        <div class="info">
+          <h2>10 Aksi Kecil untuk <br> Mengurangi Jejak Karbon</h2>
+          <p>
+            Perubahan besar dimulai dari langkah kecil. Dari kebiasaan di rumah hingga pilihan sehari-hari, ada banyak cara sederhana untuk bantu selamatkan bumi. Ingin tahu apa saja aksi mudah yang bisa langsung kamu lakukan? Yuk, cek daftarnya!
+          </p>
+          <a class='btn' href='slider2.html'>Baca Selengkapnya</a>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img
+          src="https://i.ibb.co.com/kVH69bx4/Sumatera-Flood.png"
+          alt="Sumatera Flood"
+        />
+        <div class="info">
+          <h2>Dampak Perubahan Iklim di Indonesia</h2>
+          <p>Perubahan iklim bukan lagi isu jauh—Indonesia sudah merasakannya sekarang. Banjir, cuaca ekstrem, hingga rusaknya ekosistem adalah alarm bagi kita semua. Pelajari fakta singkatnya dan kenapa kita harus bergerak sebelum terlambat.
+            </p>
+          <a class='btn' href='slider3.html'>Baca Selengkapnya</a>
+        </div>
+      </div>
+      <div class="arrow">
+        <div class="left-arrow">
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="right-arrow">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="carbon-stats">
+    <div class="carbon-stats-container">
+      <div class="carbon-stats-header">
+        <h2>Apa Penyumbang Emisi Karbon Terbesar di Dunia?</h2>
+        <p class="carbon-stats-source">Sumber: <a href="https://lestari.kompas.com/read/2024/05/29/160000686/energi-kontributor-terbesar-emisi-grk-dunia-capai-732-persen" target="_blank" rel="noopener noreferrer">Kompas.com</a></p>
+      </div>
+
+      <div class="carbon-stats-grid">
+        <div class="carbon-stat-card" data-percentage="73.2">
+          <div class="stat-icon">⚡</div>
+          <div class="stat-percentage">
+            <span class="percentage-number" data-target="73.2">0</span>%
+          </div>
+          <h3 class="stat-title">Sektor Energi</h3>
+          <div class="stat-description">
+            <p>Listrik, transportasi, bahan bakar fosil untuk rumah & industri</p>
+          </div>
+        </div>
+
+        <div class="carbon-stat-card" data-percentage="18.4">
+          <div class="stat-icon">🌱</div>
+          <div class="stat-percentage">
+            <span class="percentage-number" data-target="18.4">0</span>%
+          </div>
+          <h3 class="stat-title">Pertanian, Kehutanan & Penggunaan Lahan (AFOLU)</h3>
+          <div class="stat-description">
+            <p>Pembukaan hutan, peternakan, pertanian intensif</p>
+          </div>
+        </div>
+
+        <div class="carbon-stat-card" data-percentage="5.2">
+          <div class="stat-icon">🏭</div>
+          <div class="stat-percentage">
+            <span class="percentage-number" data-target="5.2">0</span>%
+          </div>
+          <h3 class="stat-title">Proses Industri</h3>
+          <div class="stat-description">
+            <p>Dihasilkan dari produksi semen, baja, kimia, bukan dari pembakaran energi</p>
+          </div>
+        </div>
+
+        <div class="carbon-stat-card" data-percentage="3.2">
+          <div class="stat-icon">🗑️</div>
+          <div class="stat-percentage">
+            <span class="percentage-number" data-target="3.2">0</span>%
+          </div>
+          <h3 class="stat-title">Limbah & Pengelolaan Sampah</h3>
+          <div class="stat-description">
+            <p>TPA, limbah cair, pembakaran sampah</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eco Hero Gamification Section -->
+  <section id="eco-hero">
+    <div class="eco-hero-container">
+      <div class="eco-hero-header">
+        <i class="fa-solid fa-earth-americas header-icon"></i>
+        <h1>Eco Hero <span style="color: #4d9e00">Dashboard</span></h1>
+        <p class="header-subtitle">Selesaikan misi harian dan jadilah pahlawan lingkungan!</p>
+      </div>
+      
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-icon-wrapper">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <h3>Total Poin</h3>
+          <p id="total-points">0</p>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon-wrapper">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <h3>Misi Selesai</h3>
+          <p id="completed-missions">0 / 6</p>
+        </div>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress-header">
+          <h3>Progress Misi Harian</h3>
+          <span class="progress-percentage" id="progress-percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <p class="progress-text"><span id="current-progress">0</span> / <span id="next-level-points">300</span> poin</p>
+      </div>
+
+      <div class="missions-container">
+        <h2><i class="fa-solid fa-clipboard-list"></i> Misi Harian</h2>
+        <p class="missions-subtitle">Selesaikan semua misi untuk mendapatkan 300 poin!</p>
+        
+        <div class="missions-grid">
+          <div class="mission-card">
+            <div class="mission-icon">
+              <i class="fa-solid fa-bicycle"></i>
+            </div>
+            <div class="mission-info">
+              <h4>Bersepeda ke Tempat Kerja</h4>
+              <p>Gunakan sepeda untuk perjalanan hari ini</p>
+              <span class="mission-points">+70 poin</span>
+            </div>
+            <button class="mission-btn" data-points="70" data-mission="Bersepeda ke Tempat Kerja">
+              <i class="fa-solid fa-check"></i> Selesaikan
+            </button>
+          </div>
+
+          <div class="mission-card">
+            <div class="mission-icon">
+              <i class="fa-solid fa-bus"></i>
+            </div>
+            <div class="mission-info">
+              <h4>Naik Angkutan Umum</h4>
+              <p>Pilih transportasi publik<br>hari ini</p>
+              <span class="mission-points">+50 poin</span>
+            </div>
+            <button class="mission-btn" data-points="50" data-mission="Naik Angkutan Umum">
+              <i class="fa-solid fa-check"></i> Selesaikan
+            </button>
+          </div>
+
+          <div class="mission-card">
+            <div class="mission-icon">
+              <i class="fa-solid fa-person-walking"></i>
+            </div>
+            <div class="mission-info">
+              <h4>Jalan Kaki 5000 Langkah</h4>
+              <p>Capai target langkah<br>harian</p>
+              <span class="mission-points">+40 poin</span>
+            </div>
+            <button class="mission-btn" data-points="40" data-mission="Jalan Kaki 5000 Langkah">
+              <i class="fa-solid fa-check"></i> Selesaikan
+            </button>
+          </div>
+
+          <div class="mission-card">
+            <div class="mission-icon">
+              <i class="fa-solid fa-recycle"></i>
+            </div>
+            <div class="mission-info">
+              <h4>Daur Ulang Sampah</h4>
+              <p>Pisahkan dan daur ulang<br>sampah</p>
+              <span class="mission-points">+50 poin</span>
+            </div>
+            <button class="mission-btn" data-points="50" data-mission="Daur Ulang Sampah">
+              <i class="fa-solid fa-check"></i> Selesaikan
+            </button>
+          </div>
+
+          <div class="mission-card">
+            <div class="mission-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="mission-info">
+              <h4>Ajak Teman Bersepeda</h4>
+              <p>Berbagi pengalaman ramah lingkungan</p>
+              <span class="mission-points">+60 poin</span>
+            </div>
+            <button class="mission-btn" data-points="60" data-mission="Ajak Teman Bersepeda">
+              <i class="fa-solid fa-check"></i> Selesaikan
+            </button>
+          </div>
+
+          <div class="mission-card">
+            <div class="mission-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <div class="mission-info">
+              <h4>Hemat Energi Listrik</h4>
+              <p>Matikan peralatan yang tidak digunakan</p>
+              <span class="mission-points">+30 poin</span>
+            </div>
+            <button class="mission-btn" data-points="30" data-mission="Hemat Energi Listrik">
+              <i class="fa-solid fa-check"></i> Selesaikan
+            </button>
+          </div>
+        </div>
+
+        <div class="reset-section">
+          <button id="reset-progress" class="reset-btn">
+            <i class="fa-solid fa-rotate-right"></i> Reset Progress
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="tips-facts-container">
+      <div class="tips-facts-header">
+        <h2>
+          <i class="fa-solid fa-lightbulb"></i>
+          TIPS AND FUN-FACTS
+          <i class="fa-solid fa-earth-americas"></i>
+        </h2>
+        <p>
+          Menjaga planet kita tidak harus selalu terasa seperti beban berat.
+          Terkadang, langkah kecil dan pengetahuan unik bisa memotivasi kita
+          untuk berbuat lebih banyak.
+        </p>
+      </div>
+
+      <div class="tips-card">
+        <div class="tips-content" id="tips-content">
+          <span class="emoji-icon">💡</span>
+          <p class="tips-text">Klik tombol di bawah untuk mendapatkan tips atau fun-fact!</p>
+        </div>
+
+        <button class="tips-btn" id="new-tip-btn">
+          <i class="fa-solid fa-shuffle"></i> Get New Tip
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="quiz-section">
+  <div class="quiz-container">
+
+    <div id="quiz-intro" class="quiz-card active">
+      <h2>TERRAPULSE QUIZ</h2>
+      <p class="quiz-desc">
+        Quiz ini berfungsi sebagai alat uji cepat sekaligus edukasi seru untuk mempertajam kepedulianmu terhadap isu bumi, sehingga kamu lebih siap menghadapi tantangan perubahan iklim dengan wawasan yang tepat.
+        <br>
+        Yuk, gunakan kesempatan ini untuk mengenali dampak aktivitas kita dan mulailah jadi pahlawan lingkungan dari hal-hal kecil sekarang juga!
+      </p>
+
+      <div class="quiz-rules">
+        <h4>Aturan Quiz:</h4>
+        <ul>
+          <li>Total 10 soal</li>
+          <li>Setiap soal memiliki 4 pilihan jawaban</li>
+          <li>Hanya 1 jawaban yang benar</li>
+          <li>Waktu maksimal 30 detik per soal</li>
+          <li>Jawaban akan otomatis pindah ke soal berikutnya</li>
+          <li>Setelah salah satu jawaban dipilih, pilihan tersebut tidak dapat diubah kembali</li>
+        </ul>
+      </div>
+
+      <button id="start-quiz" class="quiz-btn">Start Quiz</button>
+    </div>
+
+
+    <div id="quiz-box" class="quiz-card">
+      <div class="quiz-header">
+        <div class="progress-bar">
+          <div id="progress"></div>
+        </div>
+        <div class="quiz-info">
+          <span id="question-number">Soal 1/10</span>
+          <span id="timer">30s</span>
+        </div>
+      </div>
+
+      <h3 id="question-text">Pertanyaan dummy</h3>
+
+      <div class="options">
+        <button class="option-btn" >Pilihan A</button>
+        <button class="option-btn" >Pilihan B</button>
+        <button class="option-btn" >Pilihan C</button>
+        <button class="option-btn" >Pilihan D</button>
+      </div>
+    </div>
+
+    <div id="quiz-result" class="quiz-card">
+      <div class="result-icon-container">
+        <i class="fa-solid fa-trophy result-trophy"></i>
+      </div>
+      <h2>Hasil Quiz</h2>
+      <center>
+        <p id="final-score" class="final-score-display">Skor: 0/10</p>
+      <p id="score-message"></p>
+    </center>
+       <button id="play-again-btn" class="quiz-btn"><i class="fa-solid fa-rotate"></i> Main Lagi
+  </button>
+    </div>
+
+  </div>
+</section>
+
+  <section id="calculator">
+    <div class="calculator">
+      <h1>Kalkulator <span style="color: #4d9e00">Jejak Karbon</span></h1>
+
+      <form id="carbon-form">
+        <div class="form-group">
+          <label for="miles-driven">Emisi Kendaraan</label>
+          <input
+            type="number"
+            id="miles-driven"
+            required
+            placeholder="Jarak yang ditempuh per minggu (km)"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="electricity-consumption">Emisi Listrik</label>
+          <input
+            type="number"
+            id="electricity-consumption"
+            required
+            placeholder="Konsumsi listrik per bulan (kWh)"
+          />
+        </div>
+        <div class="form-group">
+          <label for="waste"> Emisi Sampah Organik</label>
+          <input
+            type="number"
+            id="waste"
+            required
+            placeholder="Sampah Organik yang dihasilkan per minggu (kg)"
+          />
+        </div>
+
+        <button type="submit">Hitung</button>
+      </form>
+
+      <div class="result">
+        <p>
+          Perkiraan Jejak Karbon Anda adalah
+          <span id="carbon-output">0</span> kg CO2 per tahun
+        </p>
+      </div>
+    </div>
+  </section>
+
+<!-- SECTION TOKO - BARU -->
+  <section id="shop">
+    <div class="shop-container">
+      <div class="shop-header">
+        <h1>Produk <span style="color: #4d9e00">Ramah Lingkungan</span></h1>
+        <p class="shop-subtitle">Dukung gaya hidup berkelanjutan dengan produk eco-friendly pilihan kami</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Produk 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://i.imgur.com/u4vRCLw.jpeg" alt="Kotak Makanan Eco-Friendly">
+            <div class="product-badge">Eco-Friendly</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Kotak Makanan Eco-Friendly 260ml + Tutup</h3>
+            <p class="product-price">Rp 2.500</p>
+            <p class="product-short-desc">Food Box ramah lingkungan dari serat tebu, aman untuk oven hingga 200°C</p>
+            <div class="product-actions">
+              <button class="btn-detail" onclick="openModal('modal1')">
+                <i class="fa-solid fa-info-circle"></i> Detail
+              </button>
+              <button class="btn-buy" onclick="buyProduct('Kotak Makanan Eco-Friendly 260ml + Tutup', 2500)">
+                <i class="fa-brands fa-whatsapp"></i> Beli
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produk 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://i.imgur.com/otP67wK.jpeg" alt="Biodegradable HD Plong">
+            <div class="product-badge">Biodegradable</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Biodegradable HD Plong 30x40 cm</h3>
+            <p class="product-price">Rp 2.000</p>
+            <p class="product-short-desc">Plastik ramah lingkungan, kuat dan durable. Isi per pack: 50 pcs</p>
+            <div class="product-actions">
+              <button class="btn-detail" onclick="openModal('modal2')">
+                <i class="fa-solid fa-info-circle"></i> Detail
+              </button>
+              <button class="btn-buy" onclick="buyProduct('Biodegradable HD Plong 30x40 cm', 2000)">
+                <i class="fa-brands fa-whatsapp"></i> Beli
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produk 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://i.imgur.com/L6zKw8s.jpeg" alt="Safeco Bagasse Eco Spoon">
+            <div class="product-badge">Compostable</div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Safeco Bagasse Eco Spoon</h3>
+            <p class="product-price">Rp 1.500</p>
+            <p class="product-short-desc">Sendok bebek dari bahan bagasse, kuat dan kokoh untuk makanan panas/dingin</p>
+            <div class="product-actions">
+              <button class="btn-detail" onclick="openModal('modal3')">
+                <i class="fa-solid fa-info-circle"></i> Detail
+              </button>
+              <button class="btn-buy" onclick="buyProduct('Safeco Bagasse Eco Spoon', 1500)">
+                <i class="fa-brands fa-whatsapp"></i> Beli
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal untuk Detail Produk -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <h2>Kotak Makanan Eco-Friendly 260ml + Tutup</h2>
+      <div class="modal-body">
+        <p><strong>Harga:</strong> Rp 2.500</p>
+        <p><strong>Deskripsi:</strong></p>
+        <ul>
+          <li>Terbuat dari Sugarcane Bagasse (serat tebu) dengan sertifikasi internasional</li>
+          <li>Aman di oven hingga 200°C</li>
+          <li>Tidak mengandung plastik, kertas, ataupun PLA</li>
+          <li>Dapat terurai dalam waktu kurang dari 1 tahun</li>
+          <li>Cocok untuk bakery, pastry, kue, roti, dan makanan panggang</li>
+          <li>Ukuran: 15.2 x 10.2 x 2.6 cm</li>
+          <li>Tahan air, tahan panas, aman untuk Oven, Freezer, dan Microwave</li>
+        </ul>
+        <button class="btn-buy-modal" onclick="buyProduct('Kotak Makanan Eco-Friendly 260ml + Tutup', 2500); closeModal('modal1')">
+          <i class="fa-brands fa-whatsapp"></i> Beli Sekarang
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <h2>Biodegradable HD Plong 30x40 cm</h2>
+      <div class="modal-body">
+        <p><strong>Harga:</strong> Rp 2.000</p>
+        <p><strong>Deskripsi:</strong></p>
+        <ul>
+          <li>Isi per pack: 50 pcs</li>
+          <li>Bahan ramah lingkungan (biodegradable)</li>
+          <li>Kuat dan durable</li>
+          <li>Free desain khusus untuk custom</li>
+          <li>Logo ramah lingkungan di bagian belakang</li>
+          <li>Minimal order 1 pack</li>
+        </ul>
+        <button class="btn-buy-modal" onclick="buyProduct('Biodegradable HD Plong 30x40 cm', 2000); closeModal('modal2')">
+          <i class="fa-brands fa-whatsapp"></i> Beli Sekarang
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal3')">&times;</span>
+      <h2>Safeco Bagasse Eco Spoon</h2>
+      <div class="modal-body">
+        <p><strong>Harga:</strong> Rp 1.500</p>
+        <p><strong>Deskripsi:</strong></p>
+        <ul>
+          <li>Sendok bebek 1x pakai dari bahan bagasse</li>
+          <li>Ramah lingkungan, aman untuk sup, kuah, panas atau dingin</li>
+          <li>Kuat dan kokoh</li>
+          <li>Ukuran: 143.2 x 46.5 x 50 mm</li>
+          <li>Warna: putih</li>
+          <li>Biodegradable dan Home Compostable</li>
+        </ul>
+        <button class="btn-buy-modal" onclick="buyProduct('Safeco Bagasse Eco Spoon', 1500); closeModal('modal3')">
+          <i class="fa-brands fa-whatsapp"></i> Beli Sekarang
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="blog">
+    <div class="blog">
+      <h1>Artikel Terbaru</h1>
+      <br>
+
+      <div class="container">
+        <img src="https://jagadtani.com/uploads/news/2025/11/mbah-sadiman-pahlawan-lingkungan-918305eef3686a4.png" alt="Mbah Sadiman">
+        <div class="text">
+          <h4 class="hashtag">Cerita • #PahlawanLingkungan #Wonogiri
+          </h4>
+          <a href='blog1.html'><h2 class="title">Mbah Sadiman: Sosok Sederhana yang Mengubah Bukit Gersang Menjadi Sumber Kehidupan</h2></a>
+          <p class="content">Di balik hijaunya lereng Bukit Gendol, ada satu nama yang mungkin tak pernah kita duga menjadi pahlawan tanpa tanda jasa. Seorang kakek sederhana, bekerja sendirian selama puluhan tahun, berhasil mengubah bukit tandus menjadi hutan rimbun yang kembali menghadirkan air bagi ribuan warga. Kisah Mbah Sadiman bukan hanya tentang menanam pohon—ini adalah cerita tentang tekad, harapan, dan bukti bahwa satu orang dapat membawa perubahan besar bagi banyak kehidupan.</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <img src="https://awsimages.detik.net.id/community/media/visual/2025/05/24/andrew-kalaweit-pemuda-kalteng-aktivis-lingkungan-1748101178469_169.png?w=1200" alt="Andrew Kalaweit">
+        <div class="text">
+          <h4 class="hashtag">Cerita • #SaveKalimantan #AndrewKalaweit
+          </h4>
+          <a href='blog2.html'><h2 class="title">Andrew Kalaweit: Aktivis Gen Z Berdarah Prancis–Dayak yang Menjaga Hutan Kalimantan Lewat Konten Digital </h2></a>
+          <p class="content">Di tengah hiruk-pikuk media sosial yang dipenuhi tren cepat dan hiburan, muncul sosok muda yang memakai platform yang sama untuk misi jauh lebih penting: menyelamatkan hutan. Andrew Kalaweit, aktivis Gen Z berdarah Prancis–Dayak, menjadikan kamera sebagai alat edukasi dan menunjukkan langsung kondisi hutan Kalimantan melalui aksi lapangannya. Dengan cerita yang jujur dan visual yang kuat, ia membuat kita melihat konservasi dari dekat—lebih nyata dan lebih mendesak untuk diperjuangkan. Kisah Andrew mengingatkan bahwa perubahan besar bisa dimulai dari satu orang yang berani bergerak.</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <img src="https://images-tm.tempo.co/all/2023/02/11/823748/823748_1200.jpg" alt="Tiza Mafira">
+        <div class="text">
+          <h4 class="hashtag">Cerita • #GunaUlang2025 #AksiLingkungan
+          </h4>
+          <a href='blog3.html'><h2 class="title">Tiza Mafira & Dietplastik Indonesia</h2></a>
+          <p class="content">Ingin tahu bagaimana satu gerakan kecil bisa mengubah perilaku seluruh bangsa? Perjalanan Tiza Mafira dan Dietplastik Indonesia membuktikan bahwa perubahan besar dapat dimulai dari keberanian untuk menggagas solusi sederhana: mengurangi plastik sekali pakai. Dari petisi yang menggugah publik hingga transformasi menjadi gerakan nasional yang memperkuat budaya guna ulang, kisah ini bukan hanya inspiratif—tetapi juga mengajak kita untuk ikut ambil bagian. Temukan bagaimana aksi-aksi nyata ini membuka jalan menuju Indonesia yang lebih bersih, sehat, dan berkelanjutan.</p>
+        </div>
+      </div>
+      <br>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <div class="testimonials-container">
+      <h1>Apa Kata <span style="color: #4d9e00">Mereka</span></h1>
+      <p class="testimonials-subtitle">Testimoni dari para pengguna TerraPulse yang telah merasakan manfaatnya</p>
+      
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar" id="steca">
+              
+            </div>
+            <div class="testimonial-author">
+              <h4>Steven Chandra W</h4>
+              <p class="testimonial-role">Siswa SMA Kristoforus 1</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            TerraPulse <strong>sangat membantu saya memahami jejak karbon</strong> yang saya hasilkan setiap hari. Dengan kalkulator yang mudah digunakan, saya jadi lebih sadar dan <strong>mulai mengubah kebiasaan</strong> untuk lebih ramah lingkungan.
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar" id="ani">
+              
+            </div>
+            <div class="testimonial-author">
+              <h4>Activiany Christy </h4>
+              <p class="testimonial-role">Siswi SMA Kristoforus 1</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            Fitur Eco Hero Dashboard benar-benar <strong>membuat saya termotivasi untuk konsisten</strong> melakukan aksi ramah lingkungan. <strong>Gamifikasi yang menarik</strong> membuat kegiatan sehari-hari jadi lebih menyenangkan dan bermakna!
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar" id="rico">
+            </div>
+            <div class="testimonial-author">
+              <h4>Federico Mediro</h4>
+              <p class="testimonial-role">Siswa SMA Kristoforus 1</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            Artikel-artikel di TerraPulse <strong>sangat inspiratif dan mudah dipahami</strong>. Saya sering membagikannya ke murid-murid saya sebagai bahan pembelajaran tentang <strong>pentingnya menjaga lingkungan</strong> untuk generasi mendatang.
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar" id="ricky">
+              
+            </div>
+            <div class="testimonial-author">
+              <h4>Ricky Jonggensen</h4>
+              <p class="testimonial-role">Siswa SMA Kristoforus 1</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            Platform yang <strong>sangat komprehensif dan edukatif</strong>! Tips dan fun facts yang disajikan membuat saya <strong>terus belajar hal-hal baru</strong> tentang lingkungan. TerraPulse adalah <strong>sumber informasi terpercaya</strong> untuk aksi nyata.
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar" id="hiro">
+              
+            </div>
+            <div class="testimonial-author">
+              <h4>Hiroshi Liong</h4>
+              <p class="testimonial-role">Siswa SMA Kristoforus 1</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            Saya dan keluarga <strong>jadi lebih peduli lingkungan</strong> setelah menggunakan TerraPulse. Misi-misi harian yang sederhana tapi <strong>berdampak besar</strong> membuat kami semua ikut berkontribusi untuk bumi yang lebih hijau.
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar" id="grace">
+              
+            </div>
+            <div class="testimonial-author">
+              <h4>Felisitas Gracia</h4>
+              <p class="testimonial-role">Siswi SMA Kristoforus 1</p>
+            </div>
+          </div>
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            TerraPulse membuka mata saya bahwa <strong>aksi kecil sehari-hari bisa berdampak besar bagi lingkungan</strong>. Tampilan yang <strong> dan informatif</strong> membuat saya mudah memahami isu lingkungan dan termotivasi untuk terus berkontribusi secara nyata.          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-container">
+      <div class="about-section">
+        <h1>Tentang <span style="color: #4d9e00">Kami</span></h1>
+        <p>TerraPulse lahir dari kepedulian kami yang melihat langsung bagaimana lingkungan di sekitar kita terus berubah, udara yang semakin tercemar, krisis air yang mulai terasa, serta dampak perubahan iklim yang semakin nyata dalam kehidupan sehari-hari.<br>Kami percaya bahwa perubahan besar selalu dimulai dari kesadaran kecil. Dari situlah TerraPulse hadir sebagai platform edukasi dan aksi lingkungan yang bertujuan menghubungkan informasi, data, dan aksi nyata dalam satu ruang yang mudah diakses oleh semua orang.<br>Kami percaya bahwa setiap orang sekecil apa pun perannya memiliki potensi untuk berkontribusi dalam menjaga bumi kita dan menciptakan masa depan yang lebih baik bagi generasi mendatang.<br><br><b>Team:</b> <i>Alvino Jeremy • Howard Tantra • Orville Felix</i></p>
+      </div>
+      <div class="location-section">
+        <h2><i class="fa-solid fa-location-dot"></i> Lokasi Kami</h2>
+        <p class="location-address">Sekolah Menengah Atas St. Kristoforus<br>Jakarta, Indonesia</p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.74732094666!2d106.78342027475011!3d-6.1645839438226595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6444d95abe9%3A0x7890dba988e862d2!2sSekolah%20Menengah%20Atas%20St.%20Kristoforus!5e0!3m2!1sid!2sid!4v1769442547633!5m2!1sid!2sid" width="600%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-logo">
+      <img src="https://i.ibb.co.com/k6gN0f5x/Terra-Pulse.png" alt="TERRAPULSE Logo" />
+    </div>
+    
+    <div class="right-container">
+      <div class="right-column-container">
+        <h1>TERRAPULSE</h1>
+
+        <div class="information">
+          <div class="footer-item">
+            <div class="footer-col footer-company">
+              <h3>Informasi</h3>
+              <hr class="line" />
+              <ul>
+                <li><i class="fa-solid fa-phone"></i> Phone : +62 819-9627-5318</li>
+                <li><i class="fa-solid fa-envelope"></i> E-mail : <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact.terrapulse@gmail.com" id="mail">contact.terrapulse@gmail.com</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col footer-social">
+              <h3>Kontak Kami</h3>
+              <hr class="line" />
+              <a
+                href="https://www.instagram.com/contact.terrapulse/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@osis_smaxto1?_t=8rczK0MXxHc&_r=1"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/@osissmast.kristoforus164/videos"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a target="_blank" class="text-link" href="https://kristo.sch.id/v2/"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
+            </div>
+
+            <div class="footer-col footer-news">
+              <h3>Berita Terbaru</h3>
+              <hr class="line" />
+              <div class="email-input">
+                  <input
+                    type="text"
+                    id="input-email"
+                    name="subject"
+                    placeholder="Nama Kamu"
+                    required
+                  />
+                  <button type="submit" onclick="whatsapp()">Kirim</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <button id="upBtn" onclick="backToTop()"><i class="fa-solid fa-arrow-up" id="upBtn-arrow"></i></button>
+
+  <button id="faq-button"><i class="fa-solid fa-question" id="faq-icon"></i></button>
+  <div id="faq-box">
+    <h3>FAQ</h3>
+    <div id="faq-content"></div>
+  </div>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="faq.js"></script>
+    
+    <script src="script.js"></script>
+    
+  </body>
+</html>
